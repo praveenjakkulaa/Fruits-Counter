@@ -1,0 +1,64 @@
+.main-container {
+  background-color: #ffd569;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: #ffffff;
+  min-height: 80vh;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 45px;
+}
+span {
+  color: #ffd569;
+}
+img {
+  width: 45%;
+  padding-bottom: 50px;
+}
+
+button {
+  background-color: #007bff;
+  padding: 10px;
+  border-radius: 8px;
+  color: #ffffff;
+  border-width: 0px;
+}
+.main-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
